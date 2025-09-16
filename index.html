@@ -50,4 +50,71 @@
       color: #2c3e50;
     }
     p {
+      line-height: 1.6;
+    }
+    section {
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+      background: #f0f0f0;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 1rem;
+      }
+      .intro {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
 
+<header>
+  <h1>John Doe</h1>
+</header>
+
+<div class="container">
+  <div class="intro">
+    <img
+      src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=150&q=80"
+      alt="John Doe"
+      class="profile-img"
+    />
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm John Doe, a passionate web developer and designer based in New York. I love creating beautiful, functional websites and applications that deliver great user experiences.
+    </p>
+  </div>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React & Vue.js</li>
+      <li>Node.js & Express</li>
+      <li>UI/UX Design</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: john.doe@example.com</p>
+    <p>Phone: +1 234 567 8901</p>
+    <p>Website: <a href="https://johndoe.com" target="_blank">johndoe.com</a></p>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 John Doe. All rights reserved.
+</footer>
+
+</body>
+</html>
